@@ -3145,6 +3145,9 @@ input:focus:-ms-input-placeholder {
     padding: 0;
     list-style: none;
 }
+.contact-info a {
+    text-decoration: underline;
+}
 .contact-info i {
     margin-right: 7px
 }
