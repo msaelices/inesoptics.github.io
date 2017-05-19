@@ -1,5 +1,5 @@
 /*
-Theme Name: Slowave - Multipurpose Responsive HTML5 Template 
+Theme Name: Slowave - Multipurpose Responsive HTML5 Template
 Theme URI: http://themes.iki-bir.com/slowave
 Author: elemis
 Author URI: http://iki-bir.com
@@ -418,7 +418,7 @@ hr {
 }
 .nav > li > a:hover {
 	background: none;
-	color: #3f8dbf;    
+	color: #3f8dbf;
 }
 .nav > li.current > a {
 	background: none;
@@ -1440,7 +1440,7 @@ hr {
     height: 30px;
     background-size: 30px 30px;
 }
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) { 
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
 	.tp-loader {
 	    background-image: url(style/images/loading@2x.gif)
 	}
@@ -1508,7 +1508,7 @@ hr {
     right: 0;
 }
 /* Firefox Fix */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
 	.services .tab .root:before,
 	.services .tab .root:after {
 	    margin-top: 1px
@@ -1803,6 +1803,12 @@ hr {
 .col-services-2 .col:hover .icon-border i {
     background-color: #3f8dbf;
     color: #FFF;
+}
+.budicon {
+    margin: 0 5px;
+}
+.budicon i {
+    font-size: 40px !important;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	OWL CAROUSEL
@@ -2238,7 +2244,7 @@ hr {
     font-size: 20px !important;
 }
 /* Firefox Fix */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
 	.fancybox-close:before,
 	.fancybox-prev span:before,
 	.fancybox-next span:before {
@@ -3435,7 +3441,7 @@ input:focus:-ms-input-placeholder {
 /*-----------------------------------------------------------------------------------*/
 /*	BOX LAYOUT
 /*-----------------------------------------------------------------------------------*/
-@media (min-width: 1270px) { 
+@media (min-width: 1270px) {
 	.box-layout {
 		background: transparent url(style/images/bg/bg1.jpg) repeat fixed;
 		padding: 0;
@@ -3459,7 +3465,7 @@ input:focus:-ms-input-placeholder {
 /*-----------------------------------------------------------------------------------*/
 /*	RESPONSIVE
 /*-----------------------------------------------------------------------------------*/
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 	.container {
 	    padding-right: 0;
 	    padding-left: 0;
@@ -3511,12 +3517,12 @@ input:focus:-ms-input-placeholder {
 	    padding-left: 35px !important
 	}
 }
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) { 
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
 	.navbar.basic.fixed .navbar-brand img {
 	    width: auto
 	}
 }
-@media (min-width: 993px) { 
+@media (min-width: 993px) {
 	.navbar .dropdown-submenu > a:after {
 	    display: none
 	}
@@ -3590,7 +3596,7 @@ input:focus:-ms-input-placeholder {
 	    }
 	}
 }
-@media (max-width: 991px) { 
+@media (max-width: 991px) {
 	.navbar.black .dropdown-menu,
 	.navbar.black .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,
 	.navbar.black .dropdown-menu:not(.yamm-dropdown-menu) li a.active {
@@ -3709,12 +3715,12 @@ input:focus:-ms-input-placeholder {
 		display: block;
 	}
 }
-@media (max-width: 969px) { 
+@media (max-width: 969px) {
 	.yamm .dropdown.yamm-fullwidth .dropdown-menu {
 	    width: 100%
 	}
 }
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (min-width: 768px) and (max-width: 979px) {
 	.navbar .container,
 	.container {
 	    padding-right: 15px;
@@ -3785,7 +3791,7 @@ input:focus:-ms-input-placeholder {
 	    margin-bottom: 30px
 	}
 }
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	.navbar .container,
 	.container {
 	    padding-right: 20px;
