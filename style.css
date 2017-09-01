@@ -1675,6 +1675,12 @@ hr {
 #testimonials.tab-container .panel-container div {
     padding-top: 15px
 }
+#home .testimonials .section-title h2,
+#home .testimonials div {
+    color: white;
+    font-weight: 500;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	COLUMN TESTIMONIALS
 /*-----------------------------------------------------------------------------------*/
@@ -3714,7 +3720,7 @@ input:focus:-ms-input-placeholder {
 	    height: auto
 	}
 	.navbar.basic .navbar-brand {
-	    padding-top: 20px !important
+	    padding-top: 0 !important
 	}
 	.onepage .navbar.basic.default {
 	    position: absolute;
@@ -3850,7 +3856,7 @@ input:focus:-ms-input-placeholder {
 	}
 	#testimonials .tab {
 	    display: inline-block !important
-	}
+    }
 	.sidebar {
 	    margin-top: 70px;
 	    padding-left: 15px !important;
@@ -4007,6 +4013,8 @@ input:focus:-ms-input-placeholder {
 	.filter li {
 	    margin-bottom: 30px;
 	    display: inline-block;
+        font-size: 11px;
+        margin-right: 0;
 	}
 	.classic-blog .post {
 	    margin-bottom: 30px
